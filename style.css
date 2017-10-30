@@ -1,0 +1,59 @@
+* {
+border: 1px solid black;
+font-size: 30px;
+}
+
+#a, #b, #c, #d {
+  width: 97vw;
+  margin-left: 10px;
+  margin: 1px;
+}
+
+#a {
+  background-color: #777;
+  height: 13vw;
+}
+
+#b {
+  background-color: #777;
+  height: 19vw;
+}
+
+#c {
+  background-color: #777;
+  height: 16vw;
+}
+
+#d {
+  background-color: #777;
+  height: 16vw;
+}
+
+#set2 {
+display: inline;
+}
+
+#e, #f, #g, #h {
+  background-color: #777;
+  width: 48.6vw;
+  height: 36.55vh;
+  float: left;
+  display: inline;
+}
+
+#footer {
+  background-color: #777;
+  width: 97vw;
+  height: 15vw;
+  float: left;
+}
+
+@media only screen and (min-width: 960px) {
+
+#b {
+  float: left;
+  height: 86%;
+  width: 20.8vw;
+}
+
+}
